@@ -44,12 +44,12 @@ Now, any valid Producer can send messages to the the Consumer.
 
 
 ## Yerramsetti(Producer)
---
---
---
---
---
 
+Producer command:
+`java -cp .\target\kafka-bigdata-group-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.kafkabigdatagroupapp.simple.GangadharProducer college-admissions`
+
+Consumer command:
+`java -cp .\target\kafka-bigdata-group-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.kafkabigdatagroupapp.simple.Consumer college-admissions group`
 
 ## Badda(Producer)
 --
