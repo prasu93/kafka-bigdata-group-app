@@ -1,4 +1,4 @@
-package kafka-bigdata-group1;
+package kafkabigdatagroup1;
 
 /**
  * Hello world!
