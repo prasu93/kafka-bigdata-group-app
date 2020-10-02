@@ -8,7 +8,7 @@
 ## Gangadhar Yerramsetti
 **Github Profile:** [https://github.com/gangadhary574](https://github.com/gangadhary574)
 
-## Team Lead Commands
+## Team Lead Commands (Prasanna)
 Step1 : Zookeeper service -> Run the below command from the kafka folder:
 
 `.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties`
@@ -34,3 +34,27 @@ Step6 : Start the Producer:
 `java -cp .\target\kafka-bigdata-group-app-1.0-SNAPSHOT-jar-with-dependencies.jar com.edu.nwmissouri.kafkabigdatagroupapp.simple.MamidiProducer test`
 
 Now, any valid Producer can send messages to the the Consumer.
+
+## Mamidi(Producer)
+--
+--
+--
+--
+--
+
+
+## Yerramsetti(Producer)
+--
+--
+--
+--
+--
+
+
+## Badda(Producer)
+--
+--
+--
+--
+--
+
