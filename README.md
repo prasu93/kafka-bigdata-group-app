@@ -8,4 +8,29 @@
 ## Gangadhar Yerramsetti
 **Github Profile:** [https://github.com/gangadhary574](https://github.com/gangadhary574)
 
-##Commands
+## Team Lead Commands
+Step1 : Zookeeper service -> Run the below command from the kafka folder:
+
+`.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties`
+
+Step2 : Kafka service -> Run the below command from the kafka folder:
+
+`.\bin\windows\kafka-server-start.bat .\config\server.properties`
+
+Step3 : The structure and application code is available at
+
+`src\main\java\edu\nwmissouri\kafkabigdatagroupapp\`
+
+Step4 : Fat jar file creation-> Run the below command from the root folder of the java project
+
+`mvn clean compile assembly:single`
+
+Step5 : Start the Consumer: Run the below command from the root folder of the project. I have taken topic as test and group as group
+
+`java -cp .\target\kafka-bigdata-group-app-1.0-SNAPSHOT-jar-with-dependencies.jar com.edu.nwmissouri.kafkabigdatagroupapp.simple.Consumer test group`
+
+Step6 : Start the Producer:
+
+`java -cp .\target\kafka-bigdata-group-app-1.0-SNAPSHOT-jar-with-dependencies.jar com.edu.nwmissouri.kafkabigdatagroupapp.simple.MamidiProducer test`
+
+Now, any valid Producer can send messages to the the Consumer.
