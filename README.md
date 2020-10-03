@@ -52,9 +52,12 @@ Consumer command:
 `java -cp .\target\kafka-bigdata-group-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.kafkabigdatagroupapp.simple.Consumer college-admissions group`
 
 ## Badda(Producer)
---
---
---
---
+
+Consumer command:
+`java -cp .\target\kafka-bigdata-group-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.kafkabigdatagroupapp.simple.Consumer ios14-features group`
+
+Producer command:
+`java -cp .\target\kafka-bigdata-group-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.kafkabigdatagroupapp.simple.BaddaProducer ios14-features`
+
 --
 
