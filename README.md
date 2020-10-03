@@ -36,11 +36,11 @@ Step6 : Start the Producer:
 Now, any valid Producer can send messages to the the Consumer.
 
 ## Mamidi(Producer)
---
---
---
---
---
+Producer command:
+`java -cp .\target\kafka-bigdata-group-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.kafkabigdatagroupapp.simple.MamidiProducer apple-products`
+
+Consumer command:
+`java -cp .\target\kafka-bigdata-group-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.kafkabigdatagroupapp.simple.Consumer apple-products edu.nwmissouri.kafkabigdatagroupapp.simple`
 
 
 ## Yerramsetti(Producer)
